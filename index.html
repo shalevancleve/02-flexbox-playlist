@@ -1,106 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox Playlist</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Vibe List</title>
+  <!-- Google Fonts: Montserrat for headings and Open Sans for body text -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <!-- Album Card 1: Echoes of Midnight -->
-    <div class="album">
-      <img src="img/echoes-of-midnight.png" alt="Echoes of Midnight">
-      <div class="overlay">
-        <p>A moody blend of ethereal guitars, echoing vocals, and atmospheric synths for late-night introspection.</p>
+  <header>
+    <h1>🎛️ The Vibe List</h1>
+  </header>
+  
+  <!-- Playlist wrapper: displays 4 cards max with horizontal scrolling -->
+  <div class="playlist-wrapper">
+    <div class="container">
+      <!-- Album Card 1: Echoes of Midnight -->
+      <div class="album">
+        <img src="img/echoes-of-midnight.png" alt="Echoes of Midnight">
+        <div class="overlay">
+          <p>A moody blend of ethereal guitars, echoing vocals, and atmospheric synths for late-night introspection.</p>
+        </div>
+        <div class="info">
+          <h3>Echoes of Midnight</h3>
+          <p>Alternative Rock</p>
+        </div>
       </div>
-      <div class="info">
-        <h3>Echoes of Midnight</h3>
-        <p>Alternative Rock</p>
-      </div>
-    </div>
 
-    <!-- Album Card 2: CTRL+ALT+DELIGHT -->
-    <div class="album">
-      <img src="img/ctrl-alt-delight.png" alt="CTRL+ALT+DELIGHT">
-      <div class="overlay">
-        <p>A chaotic mix of glitchy beats, distorted bass, and overprocessed vocals, engineered for viral dance trends.</p>
+      <!-- Album Card 2: CTRL+ALT+DELIGHT -->
+      <div class="album">
+        <img src="img/ctrl-alt-delight.png" alt="CTRL+ALT+DELIGHT">
+        <div class="overlay">
+          <p>A chaotic mix of glitchy beats, distorted bass, and overprocessed vocals, engineered for viral dance trends.</p>
+        </div>
+        <div class="info">
+          <h3>CTRL+ALT+DELIGHT</h3>
+          <p>Hyperpop / Electronic</p>
+        </div>
       </div>
-      <div class="info">
-        <h3>CTRL+ALT+DELIGHT</h3>
-        <p>Hyperpop / Electronic</p>
-      </div>
-    </div>
 
-    <!-- Album Card 3: Wood & Wildflowers -->
-    <div class="album">
-      <img src="img/wood-wildflowers.png" alt="Wood & Wildflowers">
-      <div class="overlay">
-        <p>Soft acoustic melodies and warm harmonies that capture the peace of quiet mornings and countryside escapes.</p>
+      <!-- Album Card 3: Wood & Wildflowers -->
+      <div class="album">
+        <img src="img/wood-wildflowers.png" alt="Wood & Wildflowers">
+        <div class="overlay">
+          <p>Soft acoustic melodies and warm harmonies that capture the peace of quiet mornings and countryside escapes.</p>
+        </div>
+        <div class="info">
+          <h3>Wood & Wildflowers</h3>
+          <p>Indie Folk / Acoustic</p>
+        </div>
       </div>
-      <div class="info">
-        <h3>Wood & Wildflowers</h3>
-        <p>Indie Folk / Acoustic</p>
-      </div>
-    </div>
 
-    <!-- Album Card 4: Analog Dreams -->
-    <div class="album">
-      <img src="img/analog-dreams.png" alt="Analog Dreams">
-      <div class="overlay">
-        <p>Smooth lo-fi beats with jazz undertones, perfect for studying, unwinding, or sipping coffee on a rainy day.</p>
+      <!-- Album Card 4: Analog Dreams -->
+      <div class="album">
+        <img src="img/analog-dreams.png" alt="Analog Dreams">
+        <div class="overlay">
+          <p>Smooth lo-fi beats with jazz undertones, perfect for studying, unwinding, or sipping coffee on a rainy day.</p>
+        </div>
+        <div class="info">
+          <h3>Analog Dreams</h3>
+          <p>Lo-Fi / Jazz Fusion</p>
+        </div>
       </div>
-      <div class="info">
-        <h3>Analog Dreams</h3>
-        <p>Lo-Fi / Jazz Fusion</p>
-      </div>
-    </div>
 
-    <!-- Album Card 5: Algorithm Approved Bangers -->
-    <div class="album">
-      <img src="img/algorithm-bangers.png" alt="Algorithm Approved Bangers">
-      <div class="overlay">
-        <p>AI-crafted pop hooks and synth-heavy beats designed to get stuck in your head and dominate playlists.</p>
+      <!-- Album Card 5: Algorithm Approved Bangers -->
+      <div class="album">
+        <img src="img/algorithm-bangers.png" alt="Algorithm Approved Bangers">
+        <div class="overlay">
+          <p>AI-crafted pop hooks and synth-heavy beats designed to get stuck in your head and dominate playlists.</p>
+        </div>
+        <div class="info">
+          <h3>Algorithmic Bangers</h3>
+          <p>Electronic Pop / Synthwave</p>
+        </div>
       </div>
-      <div class="info">
-        <h3>Algorithmic Bangers</h3>
-        <p>Electronic Pop / Synthwave</p>
-      </div>
-    </div>
 
-    <!-- Album Card 6: Liminal Spaces -->
-    <div class="album">
-      <img src="img/liminal-spaces.png" alt="Liminal Spaces">
-      <div class="overlay">
-        <p>Dreamy ambient soundscapes inspired by eerie stillness, forgotten places, and surreal late-night wanderings.</p>
+      <!-- Album Card 6: Liminal Spaces -->
+      <div class="album">
+        <img src="img/liminal-spaces.png" alt="Liminal Spaces">
+        <div class="overlay">
+          <p>Dreamy ambient soundscapes inspired by eerie stillness, forgotten places, and surreal late-night wanderings.</p>
+        </div>
+        <div class="info">
+          <h3>Liminal Spaces</h3>
+          <p>Ambient / Electronic</p>
+        </div>
       </div>
-      <div class="info">
-        <h3>Liminal Spaces</h3>
-        <p>Ambient / Electronic</p>
-      </div>
-    </div>
 
-    <!-- Album Card 7: Endless Echoes -->
-    <div class="album">
-      <img src="img/endless-echoes.png" alt="Endless Echoes">
-      <div class="overlay">
-        <p>Dreamy, washed-out melodies and soft beats that feel like drifting through an endless ocean at sunset.</p>
+      <!-- Album Card 7: Endless Echoes -->
+      <div class="album">
+        <img src="img/endless-echoes.png" alt="Endless Echoes">
+        <div class="overlay">
+          <p>Dreamy, washed-out melodies and soft beats that feel like drifting through an endless ocean at sunset.</p>
+        </div>
+        <div class="info">
+          <h3>Endless Echoes</h3>
+          <p>Chillwave / Downtempo</p>
+        </div>
       </div>
-      <div class="info">
-        <h3>Endless Echoes</h3>
-        <p>Chillwave / Downtempo</p>
-      </div>
-    </div>
 
-    <!-- Album Card 8: Lunar Reflections -->
-    <div class="album">
-      <img src="img/lunar-reflections.png" alt="Lunar Reflections">
-      <div class="overlay">
-        <p>Gentle melodies and reverb-soaked synths capturing the feeling of staring at the moon from a quiet rooftop.</p>
-      </div>
-      <div class="info">
-        <h3>Lunar Reflections</h3>
-        <p>Dreamwave / Ethereal Pop</p>
+      <!-- Album Card 8: Lunar Reflections -->
+      <div class="album">
+        <img src="img/lunar-reflections.png" alt="Lunar Reflections">
+        <div class="overlay">
+          <p>Gentle melodies and reverb-soaked synths capturing the feeling of staring at the moon from a quiet rooftop.</p>
+        </div>
+        <div class="info">
+          <h3>Lunar Reflections</h3>
+          <p>Dreamwave / Ethereal Pop</p>
+        </div>
       </div>
     </div>
   </div>
