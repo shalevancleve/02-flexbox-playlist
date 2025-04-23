@@ -17,5 +17,5 @@
       }
     }
   },
-  "postCreateCommand": "git config --global push.default current && git branch --set-upstream-to=origin/main main || true"
+  "postCreateCommand": "git config --global push.default current && git remote | grep -q origin && git fetch origin && git show-ref --verify --quiet refs/remotes/origin/main && git branch --set-upstream-to=origin/main main || true"
 }
